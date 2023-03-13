@@ -9,30 +9,34 @@ Real Examples:
 
 **New to Quarto?**
 
-You will need to understand the basics of the following features to make the most of this template. It's worth it!
+You will need to understand the basics of the following features of Quarto to make the most of this template. It's worth it!
 
-- Check [their tutorials](https://quarto.org/docs/get-started/)
+- Check [their initial tutorial](https://quarto.org/docs/get-started/)
 - Then read about [Quarto websites](https://quarto.org/docs/websites/)
 - Check out also [Revealjs tutorial](https://quarto.org/docs/presentations/revealjs/) to learn how to create modern slides
 - Then move on to learn about [Quarto projects](https://quarto.org/docs/projects/quarto-projects.html)
 
-There you go. You might be wondering how to put all of this to work. Fear not for that is precisely why this template exists!
+There you go. You might be wondering how to put all of this to work. That is precisely why this template exists!
 
 # How to use this template
 
 **On GitHub:**
 
 1. Click on the green button **Use this template** then **Create a new repository**.
+
 2. Wait for GitHub to copy the files and run the initial setup (you will see this on the **Actions** tab).
 
 **Locally in your computer:**
 
 3. Clone your newly created repository to your computer.
+
 4. Follow the instructions written below in the 🧰 [Dev Setup](#dev-setup) section.
-5. Skip the R or Python setups if do not plan on working in one of these languages.
+
+5. Skip the R or Python setup if you do not plan on working in one of these languages.
+
 6. Start editing the files! That is, identify the relevant files and remove the sections that refer to the template, leaving only what is relevant to developing/updating the material of your course.
-    - Start by editing the `README.md` file carefully (you might want to change the title, remove template sections, and edit the Dev Setup instructions to cater to your needs)
-    - Then move on to `_quarto.yml`. hat pages do you want to see on your website?
+    - Start by editing the `README.md` file carefully (you might want to change the title, remove some of the template sections, and edit the Dev Setup instructions to cater to your needs)
+    - Then move on to `_quarto.yml`. What pages do you want to see on your website?
 
 
 # 🧰 Dev Setup
@@ -51,7 +55,7 @@ On top of the setup below, I also recommend you use [VSCode](https://code.visual
 
     Never worked with conda environments before? Take some time to read [their documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html). 
 
-    💡 **Pro-tip**: replace `my-course` with the course of your code. Say: `venv-ds105`
+    💡 **Pro-tip**: replace `my-course` with your course code. Say, for example, `venv-ds105`.
 
 4. Activate the environment and make sure you have `pip` installed inside that environment:
 
@@ -96,9 +100,6 @@ Now, whenever you open a Jupyter Notebook, you should see the `venv-my-course` k
 
 ## Publishing the website
 
-I recommend you set up a **GitHub Action** for this. Just follow the official [Quarto instructions](https://quarto.org/docs/publishing/github-pages.html#publish-action) for that.
+I recommend you set up a **GitHub Action** for this. Just follow the instructions in the official [Quarto instructions](https://quarto.org/docs/publishing/github-pages.html#publish-action).
 
-# More information
-
-Click on the links below to learn how to best use this template, and how to contribute to it.
 
