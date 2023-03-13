@@ -1,0 +1,156 @@
+table td {
+    vertical-align: text-top;
+    border: 0;
+}
+
+table tr.header {
+    vertical-align: text-top;
+    border: 0;
+    background-color: #20794D;
+    color: #ffffff;
+}
+
+table tbody tr.even{
+    padding: 0.5rem 0.5rem;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 9999px transparent;
+}
+
+div.ascii table td:nth-child(3) {
+    font-weight: bold;
+    color: #B63072;
+}
+
+table tr.odd {
+    background-color: #f1f6f4;
+}
+
+.reveal pre {
+    font-size: .7em;
+}
+
+span.tag {
+    display: inline-block;
+    padding: 0 0.6em;
+    font-size: 1em;
+    font-weight: var(--base-text-weight-medium, 500);
+    line-height: 1.2em;
+    white-space: nowrap;
+    border: 1px solid transparent;
+    border-radius: 2em;
+    background-color:#5C4AFE;
+    color: #fcfcfc;
+    margin-bottom: 0.5em;
+}
+
+.border {
+    border: 1px solid #dee2e6;
+  }
+  
+  .border-thick {
+    border-width: 3px;
+  }
+
+
+mark{
+    /* background-color:#FFFF00; */
+    background: none;
+    color: #E69F25;
+    font-weight: bold;
+
+    padding-left: 0em;
+    padding-right: 0em;
+    margin-right: 0em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+}
+
+mark.math{
+    color: #274f92;
+}
+
+mark.todo:before{
+    content: '📝 TODO: ';
+}
+
+mark.todo{
+    padding-right: 0.3em;
+}
+
+mark.idea:before{
+    content: '💡 Idea: '
+
+}
+
+mark.idea{
+    background-color: #8FBC8F;
+    color: #fcfcfc;
+    padding-right: 0.3em;
+}
+
+mark.remove:before{
+    content: ''
+}
+
+mark.remove{
+    text-decoration:line-through;
+    padding-bottom: 0.1em;
+}
+
+div.csl-entry {
+    margin-bottom: 0.35em;
+}
+
+td {
+    vertical-align: middle;
+}
+
+/* https://github.com/hakimel/reveal.js/issues/1002 */
+.reveal > .slides > section > section {
+    transform-style: flat;
+  }
+
+/* @jonjoncardoso: The following is a trick I created to override mis-alignment of slides with multiple columns 
+Similar to what was reported here: https://github.com/quarto-dev/quarto-cli/issues/892 */
+
+.reveal .columns>.column>:not(ul,ol) {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.reveal .columns>.column:last-child>:not(ul,ol) {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.reveal .callout.callout-captioned .callout-icon::before {
+    margin-top: 0.3rem;
+}
+
+.reveal .callout.callout-style-simple .callout-icon::before {
+    margin-top: 0.6rem;
+}
+
+.reveal .callout.callout-style-default .callout-icon::before, .reveal .callout.callout-style-simple .callout-icon::before {
+    background-size: 1.5rem 1.5rem;
+}
+
+.reveal div.sourceCode{
+    font-size: 1.4rem;
+}
+
+.reveal div.cell-output pre {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* .reveal section#title-slide h1.title{
+    margin-left:15%;
+    margin-right:15%;
+} */
+
+details {
+    margin-bottom: 1em;
+    font-size: 0.5em;
+}

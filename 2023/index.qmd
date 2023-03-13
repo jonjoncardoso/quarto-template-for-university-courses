@@ -1,0 +1,79 @@
+---
+title: "MY COURSE CODE - MY COURSE NAME"
+subtitle: "Academic Year: 2022/23"
+format: html
+---
+
+::: {.callout-important collapse=false}
+## 📢 Important
+
+(12/03/2023)
+
+- [🗓️ Week 01 lecture material](/2023/weeks/week01/page.qmd) is now available!
+
+:::
+
+
+# 🧑🏻‍🏫 Our Team
+
+::: {.panel-tabset}
+## Course Convenor
+
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Portrait_of_a_nonbinary_person_by_DALL-E_30.png/240px-Portrait_of_a_nonbinary_person_by_DALL-E_30.png){fig-align="left" fig-alt="Photo of Dr. MY NAME" width="5em"}  
+**Dr. [MY NAME](#)** <br/>
+_Assistant Professor of Things_ <br/>
+[MY INSTITUTION](#)</a><br/>
+📧 [MY E-MAIL](mailto:)
+
+Office Hours: 
+
+- 15-min slots, on **Tuesdays 13:00 – 15:00** during Term Time
+- Room: 
+- Book via [SOME SYSTEM](#) up to 12 hours in advance
+
+## Teaching Staff
+
+![]([/figures/people/mustafa.jfif](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Portrait_of_a_nonbinary_person_by_DALL-E_17.png/240px-Portrait_of_a_nonbinary_person_by_DALL-E_17.png)){fig-align="left" fig-alt="Photo of TEACHING ASSISTANT" width="5em"}  
+**[TEACHING ASSISTANT NAME](#)** <br/>
+Teaching at the [MY INSTITUTION](#)<br> 
+PhD Candidate at PLACE <br> 
+📧 [E-MAIL](mailto:)
+
+
+:::
+
+# 📍 Lecture
+
+Fridays 2pm-4pm at PLACE
+
+# 💻 Class Groups
+
+::: {style="display:inline-block;width: 28.5%;border-style: dotted;border-width: 1px;border-color: &quot;#fefefe&quot;; margin:1%;padding:1.5%;background-color:#fafafa"}
+**Group 01**
+
+- 📆 Mondays
+- ⌚ 09:00 - 10:30
+- 📍 
+- 🧑‍🏫 _TEACHING ASSISTANT_
+:::
+
+::: {style="display:inline-block;width: 28.5%;border-style: dotted;border-width: 1px;border-color: &quot;#fefefe&quot;; margin:1%;padding:1.5%;background-color:#fafafa"}
+**Group 02**
+
+            
+- 📆 Mondays
+- ⌚ 10:30 - 12:00
+- 📍 
+- 🧑‍🏫 _TEACHING ASSISTANT_
+            
+:::
+
+::: {style="display:inline-block;width: 28.5%;border-style: dotted;border-width: 1px;border-color: &quot;#fefefe&quot;; margin:1%;padding:1.5%;background-color:#fafafa"}
+**Group 03**
+
+- 📆 Fridays
+- ⌚ 16:00 - 17:30
+- 📍 
+- 🧑‍🏫 _TEACHING ASSISTANT_
+:::

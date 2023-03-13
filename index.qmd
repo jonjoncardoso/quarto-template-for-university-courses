@@ -1,0 +1,31 @@
+---
+title: "MY COURSE CODE - MY COURSE NAME"
+format:
+  html:
+    include-before-body: helpers/remove-nav.html
+    include-after-body: helpers/remove-title.html
+---
+
+# 📑 Course Brief
+
+**Focus:** the focus of this course is to learn stuff
+
+**How:** hands-on learning
+
+# 🎯 Learning Objectives
+
+- You will discover how to do X
+- Distinguish X from **X**
+- Practice how to put things _in italic_
+- Discover how to highlight `code` inline
+- Proceed to learn stuff
+
+
+-----------------
+
+**Select Academic Year/Term:**
+
+<a href="2023/index.qmd">
+    <button class="button-61">2022/23</button>
+</a>
+

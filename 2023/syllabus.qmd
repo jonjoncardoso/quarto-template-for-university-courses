@@ -1,0 +1,413 @@
+---
+title: "MY COURSE CODE"
+subtitle: "MY COURSE NAME"
+date: 20 January 2023
+date-meta: 20 January 2023
+citation-location: document
+---
+
+
+<table class="syllabus">
+    <thead>  
+</thead>
+
+<tr class="odd">
+    <th colspan=4>Intro</th>
+</tr>
+
+<!-- WEEK 01 -->
+<tbody>
+    <tr class="even">
+        <td rowspan=4></td>
+        <td rowspan=4 style="width:9rem;">🗓️ <a href="/2023/weeks/week01/page.qmd">Week 01</a></td>
+        <td style="font-weight:bold;width:8rem;">🧑‍🏫 Lecture</td>
+        <td> The Data Science Toolbox and the Terminal<br/>🗓️ 20 January 2023</td>
+    </tr>
+    <tr class="even">
+        <td style="font-weight:bold;">💻 Class</td>
+        <td>No class this week. <br/>_(But there is a bit of reading to do)_</td>
+    </tr>
+    <tr class="even">
+        <td style="font-weight:bold;">✍️ Formative</td>
+        <td>
+            <ul>
+                <li>**What:** Install [Anaconda](https://www.anaconda.com/products/distribution) + read and take notes of the two book chapters listed on the indicative readings</li>
+                <li>**When:** During Week 02</li>
+                <li>**Why:** You will need Anaconda on W03 labs, and your notes will be useful for Summative assessments later</li>
+                <li>**Deadline:** 27 January 2023</li>
+            </ul>
+        </td>
+    </tr>
+    <tr class="even">
+        <td style="font-weight:bold;">📖 Readings</td>
+        <td>
+            **Indicative**
+            <ul> 
+                <li> 📕 Book Chapter: [@schutt_doing_2013, chapter 1] - _What is Data Science?_</li>
+                <li> 📕 Book Chapter: [@shah_hands-introduction_2020, chapter 1] - _Introduction_</li>
+            </ul>
+            **Recommended**
+            <ul>
+                <li> 📃 Academic Article: "_Beyond Unicorns: Educating, Classifying, and Certifying Business Data Scientists_" [@davenport_beyond_2020] </li>
+            </ul>
+        </td>
+        
+    </tr>
+</tbody>
+
+<tr class="odd">
+    <th colspan=4>Behind the scenes</th>
+</tr>
+
+<!-- WEEK 02 -->
+<tbody>
+    
+<tr class="even">
+    <td rowspan=5></td>
+    <td rowspan=5>🗓️ <a href="/2023/weeks/week02/page.qmd">Week 02</a></td>
+    <td style="font-weight:bold;">💻 Class</td>
+    <td>**Hands-On**: Navigating the command line in your own computer<br/>🗓️ 23 January 2023 (G1 and G2) or  27 January 2023 (G3)</td>
+</tr>
+<tr class="even">
+    <td style="font-weight:bold;">✍️ Formative</td>
+    <td>
+        <ul>
+            <li>**What:** show us you can use the terminal</li>
+            <li>**When:** during the lab </li>
+            <li>**Why:** this will be essential for the first summative</li>
+            <li>**What if I could not complete the lab?** Ask your classmates for help on the `#help` channel on Slack or book office hours with either Mustafa or Jon</li>
+        </ul>
+    </td>
+</tr>
+<tr class="even">
+    <td style="font-weight:bold;">🧑‍🏫 Lecture</td>
+    <td>Data types, file formats, and the Cloud<br/>🗓️ 27 January 2023</td>
+</tr>
+<tr class="even">
+    <td style="font-weight:bold;">🌟 Summative</td>
+    <td>
+        <ul>
+            <li>**What:** Release of Problem Set 01 — a shell in the cloud</li>
+            <li>**Description:** Create files and run scripts in the cloud</li>
+            <li>**Released when:** after the lecture</li>
+            <li>**Deadline:** one day before your W04 lab session</li>
+            <li>**What if I get stuck?** Either ask for _general_ questions on Slack (`#topic-the-terminal-and-the-cloud`) or book office hours. <br/><br/>⚠️ Remember: you are NOT ALLOWED to share your cloud credentials, scripts, or files with others</li>
+        </ul>
+    </td>
+</tr>
+<tr class="even">
+    <td style="font-weight:bold;">📖 Readings</td>
+    <td>
+        **Recommended**
+        <ul>
+            <li>💻 Tutorial: "_Uzing Z Shell on Macs_" [@hartl_using_2020]</li>
+            <li>💻 Tutorial: "_Install Ubuntu on WSL2 on Windows 11_"  [@canonical_install_2022]</li>
+            <li> 💻 Tutorial: "_What is Windows Subsystem for Linux_" [@microsoft_what_2022] </li>
+            <li>📄 Blog post: "_What is Ubuntu?_" [@abubakar_what_2021]</li>
+            <li>📃 Academic article: "_Ten simple rules for getting started with command-line bioinformatics_" [@brandies_ten_2021] </li>
+        </ul>
+
+        **Go deeper**
+        <ul>    
+            <li> 🔖 Check our list of links in the [Week 02 Appendix](/2023/weeks/week02/appendix.qmd) </li>
+            <li>📗 Book: "_Mastering Linux Shell Scripting_" [@ebrahim_mastering_2018]</li>
+            <li>📘 Book: "_Fundamentals of Linux_" [@pelz_fundamentals_2018]</li>
+        </ul>
+    </td>
+</tr>
+</tbody>
+
+<!-- WEEK 03 -->
+<tbody>
+    
+<tr class="even">
+    <td rowspan=5></td>
+    <td rowspan=5>🗓️ <a href="/2023/weeks/week03/page.qmd">Week 03</a></td>
+    <td style="font-weight:bold;">💻 Class</td>
+    <td>**Hands-On**: Connecting to the cloud via the command line <br/>🗓️ 30 January 2023 (G1 & G2) or 4 February 2023 (G3)</td>
+
+</tr>
+<tr class="even">
+    <td style="font-weight:bold;">🧑‍🏫 Lecture</td>
+    <td>Jupyter Notebooks, Data Frames and Web Scraping<br/>🗓️ 3 February 2023</td>
+</tr>
+<tr class="even">
+    <td style="font-weight:bold;">⏲️ Deadline</td>
+    <td style="color:var(--bs-danger)">Submit your Problem Set 01 via Moodle<br/>🗓️ 5 February 2023 (G1 & G2)</td>
+</tr>
+<tr class="even">
+    <td style="font-weight:bold;">🌟 Summative</td>
+    <td>
+        <ul>
+            <li>**What:** Release of Problem Set 02 — Web Wrangling Wonders</li>
+            <li>**Description:** Write a script to scrap data from a website</li>
+            <li>**Released when:** after the lecture</li>
+            <li>**Deadline:** one day before your W05 lab session</li>
+            <li>**What if I get stuck?** Either ask for _general_ questions on Slack (`#topic-web-scraping`), attend drop-in sessions, or book office hours. <br/><br/>⚠️ Remember: you are NOT ALLOWED to share your cloud credentials, scripts, or files with others</li>
+        </ul>
+    </td>
+</tr>
+
+    <tr class="even">
+        <td style="font-weight:bold;">📖 Readings</td>
+        <td>
+            **Indicative**
+            <ul> 
+                <li> 📕 Book: [@duckett_html_2014, Chapters 1-6] - _HTML & CSS - design and build websites_</li>
+                <li> 📖 Software Documentation: "_BeautifulSoup library_" [@beautifulsoup_beautiful_2023] </li>
+            </ul>
+            **Recommended**
+            <ul>
+                <li> 📖 Software Documentation: "_python requests library_" [@requests_requests_2023] </li>
+                <li> 📖 Software Documentation: "_Data types — NumPy v1.24 Manual_" [@numpy_data_2022] </li>
+                <li> 📖 Software Documentation: "_Intro to data structures — Pandas v1.5.3 Manual_" [@pandas_intro_2022] </li>
+                <li> 📖 Software Documentation: "_How do I subset data? — Pandas v1.5.3 Manual_" [@pandas_how_2022] </li>
+            </ul>
+            **Go Deeper**
+            <ul>
+                <li> 📖 Software Documentation: "_Data type objects (dtype) — NumPy v1.24 Manual_" [@numpy_data_2022-1] </li>
+            </ul>
+        </td>
+        
+    </tr>
+
+</tbody>
+
+<tr class="odd">
+    <th colspan=4>Collecting data</th>
+</tr>
+
+<!-- WEEK 04 -->
+<tbody>
+    <tr class="even">
+        <td rowspan=5></td>
+        <td rowspan=5>🗓️ <a href="/2023/weeks/week04/page.qmd">Week 04</a></td>
+        <td style="font-weight:bold;">💻 Class</td>
+        <td>**Hands-On:** Web scraping <br/>🗓️ 6 February 2023 (G1 \& G2) or 10 February 2023 (G3)</td>
+    </tr>
+    <tr class="even">
+        <td style="font-weight:bold;">⏲️ Deadline</td>
+        <td style="color:var(--bs-danger)">Submit your Problem Set 01 via Moodle<br/>🗓️ 9 February 2023 (G3) </td>
+    </tr>
+    <tr class="even">
+        <td style="font-weight:bold;">🧑‍🏫 Lecture</td>
+        <td>~~API queries \& pandas' mutate and transform functions~~<br/>~~10 February 2023~~<br/><br/><span style="color:#E4051F">(Lecture cancelled due to [UCU Strike Action](https://www.canva.com/design/DAFSAUPVw6M/0GwGi_L4Zl_rG2oe404okg/view)<br/>Read [my message on Slack](https://lse-ds105l-202223.slack.com/archives/C04KAAWC8LB/p1675854721435699) about the strikes.)</span><br/></td>
+    </tr>
+    <tr class="even">
+        <td style="font-weight:bold;">🌟 Summative</td>
+        <td>
+            <ul>
+                <li>**What:** Release of Problem Set 03 — API Data Expedition</li>
+                <li>**Description:** Write a script to query data from an API and parse it as a data frame</li>
+                <li>**Released when:** ~~after the lecture~~ on Monday, 13 February 2023</li>
+                <li>**Deadline:** ten days after your W05 lab session</li>
+                <li>**What if I get stuck?** Either ask for _general_ questions on Slack (`#topic-apis` or `#topic-pandas`), attend drop-in sessions, or book office hours. <br/><br/>⚠️ Remember: you are NOT ALLOWED to share your cloud credentials, scripts, or files with others</li>
+            </ul>
+        </td>
+    </tr>
+    <tr class="even">
+        <td style="font-weight:bold;">⏲️ Deadline</td>
+        <td style="color:var(--bs-danger)">Submit your Problem Set 02 via Moodle<br/>🗓️ 12 February 2023 (G1 \& G2) </td>
+    </tr>
+</tbody>
+
+<!-- WEEK 05 -->
+<tbody>
+    <tr class="even">
+        <td rowspan=4></td>
+        <td rowspan=4>🗓️ <a href="/2023/weeks/week05/page.qmd">Week 05</a></td>
+        <td style="font-weight:bold;">💻 Class</td>
+        <td>
+            **Hands-On:** API queries and Pandas data frames<br/>
+            **Group formation:** Start thinking about it (read 🎯 ACTION POINTS [here](/2023/weeks/week05/lab.html#part-3-avengers-assemble))<br/>
+            🗓️ 13 February 2023 (G1 \& G2) or 17 February 2023 (G3)
+        </td>
+    </tr>
+    <tr class="even">
+        <td style="font-weight:bold;">⏲️ Deadline</td>
+        <td style="color:var(--bs-danger)">Submit your Problem Set 02 via Moodle<br/>🗓️ 16 February 2023 (G3) </td>
+    </tr>
+    <tr class="even">
+        <td style="font-weight:bold;">🧑‍🏫 Lecture</td>
+        <td>Summarising data \& data visualisation with [`plotnine`](https://plotnine.readthedocs.io/)</td>
+    </tr>
+    <tr class="even">
+        <td style="font-weight:bold;">✍️ Formative</td>
+        <td>
+            <ul>
+                <li>**What:** Team contract</li>
+                <li>**Description:** Write a team contract for your group. You will need your notes from Week01 readings.</li>
+                <li>**Released when:** at the end of the lecture</li>
+                <li>**Why:** you need to decide who will be responsible for what</li>
+                <li>**Deadline:** 2 March 2023 (Week 07)</li>
+                <li>**What if I could not attend the class?** Propose a project idea on Slack (channel `#group-projects`) or volunteer to join established projects</li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
+
+<tr class="odd">
+    <th colspan=4>"Reading" Week</th>
+</tr>
+<!-- WEEK 06 -->
+<tbody>
+    <tr class="even">
+        <td rowspan=4></td>
+        <td rowspan=4>🗓️ Week 06</td>
+        <td style="font-weight:bold;">🆘 Drop-in</td>
+        <td>Attend in-person to get help with your summatives<br/>🗓️ 20 February 2023, 10 a.m. CBG 1.02 (no need to book)</td>
+    </tr>
+    <tr class="even">
+        <td style="font-weight:bold;">⏲️ Deadline</td>
+        <td style="color:var(--bs-danger)">Submit your Problem Set 03 via Moodle<br/>🗓️ 23 February 2023 (G1 \& G2) </td>
+    </tr>
+    <tr class="even">
+        <td style="font-weight:bold;">🆘 Drop-in</td>
+        <td>Attend in-person to get help with your summatives<br/>🗓️ 24 February 2023, 10 a.m. CBG 1.02 (no need to book)</td>
+    </tr>
+    <tr class="even">
+        <td style="font-weight:bold;">⏲️ Deadline</td>
+        <td style="color:var(--bs-danger);padding-bottom:1.5em;">Submit your Problem Set 03 via Moodle<br/>🗓️ 27 February 2023 (G3) </td>
+    </tr>
+</tbody>
+
+<tr class="odd">
+    <th colspan=4>Reshaping data</th>
+</tr>
+<!-- WEEK 07 -->
+<tbody>
+    <tr class="even">
+        <td rowspan=4></td>
+        <td rowspan=4>🗓️ <a href="/2023/weeks/week07/page.qmd">Week 07</a></td>
+        <td style="font-weight:bold;">💻 Class</td>
+        <td>**Hands-On:** Dataviz with plotnine<br/> 🗓️ 27 February 2023 (G1 \& G2) or 3 March 2023 (G3)
+        </td>
+    </tr>
+    <tr class="even">
+        <td style="font-weight:bold;">⏲️ Deadline</td>
+        <td style="color:var(--bs-danger)">Submit your Team Contract via Moodle<br/>🗓️ 2 March 2023 (G3) </td>
+    </tr>
+    <tr class="even">
+        <td style="font-weight:bold;">🧑‍🏫 Lecture</td>
+        <td>Databases \& data pivoting <br/>🗓️ 3 March 2023</td>
+    </tr>
+</tbody>
+
+<!-- WEEK 08 -->
+<tbody>
+    <tr class="even">
+        <td rowspan=4></td>
+        <td rowspan=4>🗓️ <a href="/2023/weeks/week08/page.qmd">Week 08</a></td>
+        <td style="font-weight:bold;">🗣️ Class</td>
+        <td style="color:var(--bs-danger)">**Group Presentations:** Show us your data<br/> 🗓️ 6 March 2023 (G1 \& G2) or 10 March 2023 (G3)
+        </td>
+    </tr>
+    <tr class="even">
+        <td style="font-weight:bold;">🧑‍🏫 Lecture</td>
+        <td>Git, markdown and conda environments<br/>🗓️ 10 March 2023</td>
+    </tr>
+</tbody>
+
+<tr class="odd">
+    <th colspan=4>Code organisation and Applications</th>
+</tr>
+
+<!-- WEEK 09 -->
+<tbody>
+    <tr class="even">
+        <td rowspan=4></td>
+        <td rowspan=4>🗓️ <a href="/2023/weeks/week09/page.qmd">Week 09</a></td>
+        <td style="font-weight:bold;">💻 Class</td>
+        <td>**Hands-on:** Basics of github \& building web pages from markdown<br/> 🗓️ 13 March 2023 (G1 \& G2) or 17 March 2023 (G3)
+        </td>
+    </tr>
+    <tr class="even">
+        <td style="font-weight:bold;">🧑‍🏫 Lecture</td>
+        <td>Merge operations \& practical tips for code organisation <br/>🗓️ 17 March 2023</td>
+    </tr>
+</tbody>
+
+<!-- WEEK 10 -->
+<tbody>
+    <tr class="even">
+        <td rowspan=4></td>
+        <td rowspan=4>🗓️ Week 10</td>
+        <td style="font-weight:bold;">💻 Class</td>
+        <td>**Hands-on:** Github Issues \& Pull Requests<br/> 🗓️ 20 March 2023 (G1 \& G2) or 24 March 2023 (G3)
+        </td>
+    </tr>
+    <tr class="even">
+        <td style="font-weight:bold;">🧑‍🏫 Lecture</td>
+        <td>Applications I: text mining \& network analysis <br/> 🗓️24 March 2023</td>
+    </tr>
+</tbody>
+
+<!-- WEEK 11 -->
+<tbody>
+    <tr class="even">
+        <td rowspan=4></td>
+        <td rowspan=4>🗓️ Week 11</td>
+        <td style="font-weight:bold;">🗣️ Class</td>
+        <td style="color:var(--bs-danger)">**Group Presentations:** Now show us your data wrangling skills<br/> 🗓️ 27 March 2023 (G1 \& G2) or 31 March 2023 (G3)
+        </td>
+    </tr>
+    <tr class="even">
+        <td style="font-weight:bold;">🧑‍🏫 Lecture</td>
+        <td>Applications II: text mining \& network analysis <br/>🗓️ 31 March 2023</td>
+    </tr>
+</tbody>
+
+<tr class="odd">
+    <th colspan=4>After the Term</th>
+</tr>
+
+<!-- SPRING BREAK -->
+<tbody>
+    <tr class="even" style="filter:brightness(1.4);">
+        <td></td>
+        <td style="padding-top:3rem;">April/2023</td>
+        <td colspan=2 style="font-weight:bold;padding-bottom:3rem;">Spring Break</td>
+    </tr>
+</tbody>
+
+<tr class="odd">
+    <th colspan=4>Summer Term (May \& Jun 2023)</th>
+</tr>
+<!-- WEEK 06 -->
+<tbody>
+    <tr class="even">
+        <td></td>
+        <td>🗓️ Week 03 (ST)</td>
+        <td style="font-weight:bold;">🆘 Drop-in</td>
+        <td>Attend in-person to get help with your final projects<br/>🗓️ Tentative: 4 May 2023</td>
+    </tr>
+</tbody>
+<tbody>
+    <tr class="even">
+        <td></td>
+        <td>🗓️ Week 04 (ST)</td>
+        <td style="font-weight:bold;">🆘 Drop-in</td>
+        <td>Attend in-person to get help with your final projects<br/>🗓️ Tentative: 11 May 2023</td>
+    </tr>
+</tbody>
+<tbody>
+    <tr class="even">
+        <td></td>
+        <td>🗓️ Week 05 (ST)</td>
+        <td style="font-weight:bold;">🆘 Drop-in</td>
+        <td>Attend in-person to get help with your final projects<br/>🗓️ Tentative: 18 May 2023</td>
+    </tr>
+</tbody>
+<tbody>
+    <tr class="even">
+        <td></td>
+        <td>🗓️ Week 06 (ST)</td>
+        <td style="font-weight:bold;">⏲️ Deadline</td>
+        <td style="color:var(--bs-danger);padding-bottom:1.5em;">Submit the URL of your final project via Moodle<br/>🗓️ 22 May 2023 (all groups) </td>
+    </tr>
+</tbody>
+<tr class="odd">
+    <th colspan=4>The End</th>
+</tr>
+</table>
+

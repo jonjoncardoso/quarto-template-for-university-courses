@@ -1,0 +1,85 @@
+project:
+  type: "website"
+  title: "MY COURSE NAME 2022/23"
+  output-dir: _output
+  render:
+    - "index.qmd"
+    - "2023/*.qmd"
+
+website:
+  title: "MY COURSE NAME 2022/23"
+  page-navigation: true
+  reader-mode: true
+  open-graph: true
+  twitter-card: 
+    creator: "@<twitter-handle>"
+    site: "\\@<twitter-handle>"
+#  favicon: "figures/icons/my_course_favicon.png"
+  search:
+    location: navbar
+    type: textbox
+  sidebar:
+    style: docked
+    contents:
+      - href: 2023/index.qmd
+        text: "🏠 Home"
+      # - href: 2023/syllabus.qmd
+      #   text: "📓 Syllabus"
+      # - href: 2023/communication.qmd
+      #   text: "📟 Communication"
+      # - href: 2023/assignments.qmd
+      #   text: "✍️ Assignments"
+      #   contents:
+      #     - href: 2023/assignments/assignment01.qmd
+      #       text: "📝 Assignment 01"
+      #     - href: 2023/assignments/assignment02.qmd
+      #       text: "📝 Assignment 02"
+      #     - href: 2023/assignments/group_project.qmd
+      #       text: "👥 Group Project"
+      # - section: "🗓️ Weeks"
+      #   contents:
+      #    - href: 2023/weeks/week01/page.qmd
+      #      text: Week 01
+      #      contents:
+      #        - href: 2023/weeks/week01/page.qmd
+      #          text: 👨‍🏫 Lecture Material
+      #        - href: 2023/weeks/week01/lab.qmd
+      #          text: 💻 Lab Roadmap
+      #        - href: 2023/weeks/week01/appendix.qmd
+      #          text: 🔖 Appendix
+
+  navbar:
+    background: primary
+  page-footer:
+    background: light
+    left: "Copyright 2023, MY INSTITUTION" 
+
+
+
+bibliography: references/references.bib
+csl: references/chicago-author-date.csl
+
+
+format:
+  html:
+    author: Dr. [MY NAME](#)
+    author-meta: Dr. MY NAME
+    date-format: "DD MMMM YYYY"
+
+    email-obfuscation: javascript
+    link-external-newwindow: true
+    link-external-icon: true
+    link-external-filter: ^(?:http:|https:)\/\/(?:lse-dsi\.github\.io\/|localhost)
+
+    theme:
+      light: 
+        - journal
+        - css/custom.scss # I use this just to change the default colour
+    css: 
+      - css/custom_style.css
+      - css/syllabus.css
+    toc: true
+
+#margin-header: |
+# ![](/figures/logos/MY_INSTITUTION.png)
+
