@@ -1,0 +1,40 @@
+table.syllabus td {
+    vertical-align: text-top;
+    border: 0;
+}
+
+table.syllabus tbody tr.even{
+    padding: 0.5rem 0.5rem;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 9999px transparent;
+}
+
+table.syllabus tbody tr.even:last-child {
+    border-bottom-width: 1px;
+}
+
+table.syllabus tr.odd {
+  background-color: var(--bs-blue);
+  color: var(--bs-white);
+}
+
+details.special {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+}
+
+details.special summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+}
+
+details.special[open] {
+    padding: .5em;
+}
+
+details.special[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}

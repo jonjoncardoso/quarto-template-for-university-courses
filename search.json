@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MY COURSE CODE - MY COURSE NAME",
+    "section": "",
+    "text": "📑 Course Brief\nFocus: the focus of this course is to learn stuff\nHow: hands-on learning\n\n\n🎯 Learning Objectives\n\nYou will discover how to do X\nDistinguish X from X\nPractice how to put things in italic\nDiscover how to highlight code inline\nProceed to learn stuff\n\n\nSelect Academic Year/Term:\n 2022/23"
+  },
+  {
+    "objectID": "2023/index.html",
+    "href": "2023/index.html",
+    "title": "MY_COURSE_CODE - MY_COURSE_NAME",
+    "section": "",
+    "text": "📢 Important\n\n\n\n\n\n(12/03/2023)\n\n🗓️ Week 01 lecture material is now available!\n\n\n\n\n\n🧑🏻‍🏫 Our Team\n\nCourse ConvenorTeaching Staff\n\n\n\nMY_NAME  MY_JOB_TITLE  MY_INSTITUTION 📧 MY_EMAIL ( at )\nOffice Hours:\n\nWhen:\nWhere:\nHow to book:\n\n\n\n\nTA_NAME  PhD Candidate at PLACE  📧 EMAIL ( at )\n\nTA_NAME  PhD Candidate at PLACE  📧 EMAIL ( at )\n\n\n\n\n\n📍 Lecture\nFridays 2pm-4pm at PLACE\n\n\n💻 Class Groups\n\nGroup 01\n\n📆 Mondays\n⌚ 09:00 - 10:30\n📍\n🧑‍🏫 TA_NAME\n\n\n\nGroup 02\n\n📆 Mondays\n⌚ 10:30 - 12:00\n📍\n🧑‍🏫 TA_NAME\n\n\n\nGroup 03\n\n📆 Fridays\n⌚ 16:00 - 17:30\n📍\n🧑‍🏫 TA_NAME"
+  },
+  {
+    "objectID": "2023/weeks/week01/page.html",
+    "href": "2023/weeks/week01/page.html",
+    "title": "🗓️ Week 01 - Introduction, Context & Key Concepts",
+    "section": "",
+    "text": "In this first week, we will cover what you can expect to learn from this course and the course logistics: all you need to know about the structure of the lectures, classes, assessments, and how we will interact throughout this course."
+  },
+  {
+    "objectID": "2023/weeks/week01/page.html#lecture-slides",
+    "href": "2023/weeks/week01/page.html#lecture-slides",
+    "title": "🗓️ Week 01 - Introduction, Context & Key Concepts",
+    "section": "👨‍🏫 Lecture Slides",
+    "text": "👨‍🏫 Lecture Slides\nEither click on the slide area below or click here to view it in fullscreen. Use your keypad to navigate the slides.\n\n\n\n\n🎥 Looking for lecture recordings? You can only find those on Moodle."
+  },
+  {
+    "objectID": "2023/weeks/week01/page.html#coursework",
+    "href": "2023/weeks/week01/page.html#coursework",
+    "title": "🗓️ Week 01 - Introduction, Context & Key Concepts",
+    "section": "✍️ Coursework",
+    "text": "✍️ Coursework\n🚧 Come back after the lecture to read the coursework instructions for the week 🚧"
+  },
+  {
+    "objectID": "2023/weeks/week01/page.html#recommended-reading",
+    "href": "2023/weeks/week01/page.html#recommended-reading",
+    "title": "🗓️ Week 01 - Introduction, Context & Key Concepts",
+    "section": "📚 Recommended Reading",
+    "text": "📚 Recommended Reading\n\nCheck the end of slides for the list of references cited in the lecture."
+  },
+  {
+    "objectID": "2023/weeks/week01/page.html#communication",
+    "href": "2023/weeks/week01/page.html#communication",
+    "title": "🗓️ Week 01 - Introduction, Context & Key Concepts",
+    "section": "📟 Communication",
+    "text": "📟 Communication\n\nIf you feel like it, introduce yourself in the #introductions channel on Slack"
+  },
+  {
+    "objectID": "2023/weeks/week01/slides.html#your-lecturer",
+    "href": "2023/weeks/week01/slides.html#your-lecturer",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Your lecturer",
+    "text": "Your lecturer\n\n\n\n\n\nProf. Octopian Professor of Octopus Issues Head of the Python vs R Debate Society\n\n\n\n\nPhD in Octopi Engineering\nBackground: Engineering of Deep Ocean constructions\nFormer Lead Data Scientist\n\ndeep ocean  engineering  octopus"
+  },
+  {
+    "objectID": "2023/weeks/week01/slides.html#teaching-assistants",
+    "href": "2023/weeks/week01/slides.html#teaching-assistants",
+    "title": "🗓️ Week 01 Introduction",
+    "section": "Teaching Assistants",
+    "text": "Teaching Assistants\n\n\n\n\n\nOctopnuian Arveda  PhD Candidate at OctopusLab, OUN  MSc in Octopus Transportation 📧 \n\n\n\n\n\n\nOctopnuian Arveda  PhD Candidate at OctopusLab, UOS  MSc in Octopus Transportation 📧 \n\n\n\n\n\n\n\nMY_COURSE_CODE – MY_COURSE_NAME"
+  }
+]
