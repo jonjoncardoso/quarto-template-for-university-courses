@@ -1,20 +1,21 @@
 project:
   type: "website"
-  title: "MY COURSE NAME 2022/23"
+  title: "MY_COURSE_NAME 2022/23"
   output-dir: _output
   render:
     - "index.qmd"
     - "2023/*.qmd"
+    - "2023/weeks/week01/*.qmd"
 
 website:
-  title: "MY COURSE NAME 2022/23"
+  title: "MY_COURSE_NAME 2022/23"
   page-navigation: true
   reader-mode: true
   open-graph: true
   twitter-card: 
     creator: "@<twitter-handle>"
     site: "\\@<twitter-handle>"
-#  favicon: "figures/icons/my_course_favicon.png"
+  favicon: "figures/icons/course_favicon.png"
   search:
     location: navbar
     type: textbox
@@ -36,17 +37,17 @@ website:
       #       text: "📝 Assignment 02"
       #     - href: 2023/assignments/group_project.qmd
       #       text: "👥 Group Project"
-      # - section: "🗓️ Weeks"
-      #   contents:
-      #    - href: 2023/weeks/week01/page.qmd
-      #      text: Week 01
-      #      contents:
-      #        - href: 2023/weeks/week01/page.qmd
-      #          text: 👨‍🏫 Lecture Material
-      #        - href: 2023/weeks/week01/lab.qmd
-      #          text: 💻 Lab Roadmap
-      #        - href: 2023/weeks/week01/appendix.qmd
-      #          text: 🔖 Appendix
+      - section: "🗓️ Weeks"
+        contents:
+         - href: 2023/weeks/week01/page.qmd
+           text: Week 01
+           contents:
+             - href: 2023/weeks/week01/page.qmd
+               text: 👨‍🏫 Lecture Material
+            #  - href: 2023/weeks/week01/lab.qmd
+            #    text: 💻 Lab Roadmap
+            #  - href: 2023/weeks/week01/appendix.qmd
+            #    text: 🔖 Appendix
 
   navbar:
     background: primary
