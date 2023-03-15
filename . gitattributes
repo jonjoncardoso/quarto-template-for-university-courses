@@ -1,0 +1,5 @@
+# Ignore .bib file
+*.bib -linguist-detectable
+
+# Associate
+*.qmd linguist-language=markdown
