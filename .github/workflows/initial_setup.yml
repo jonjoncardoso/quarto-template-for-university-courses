@@ -1,0 +1,158 @@
+name: initial-setup
+
+# Controls when the action will run.
+on:
+  push:
+    branches:   
+      - main
+  
+jobs:
+
+  initial-setup:
+    permissions: write-all
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      
+      # Ensures that the main branch is created
+      - name: ensure_main_branch
+        continue-on-error: true
+        run: |
+          git checkout -b main
+          git push --set-upstream origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      # Ensures that the main branch is created
+      - name: ensure_develop_branch
+        continue-on-error: true
+        run: |
+          git checkout -b develop
+          git push --set-upstream origin develop
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Delete boring labels
+      - name: label_automation
+        continue-on-error: true
+        if: contains(github.event.head_commit.message, 'Initial commit')
+        run: |
+          gh label delete "bug"              --confirm
+          gh label delete "documentation"    --confirm
+          gh label delete "duplicate"        --confirm
+          gh label delete "enhancement"      --confirm
+          gh label delete "good first issue" --confirm
+          gh label delete "help wanted"      --confirm
+          gh label delete "invalid"          --confirm
+          gh label delete "question"         --confirm
+          gh label delete "wontfix"          --confirm
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Create labels
+      - name: label_automation
+        continue-on-error: true
+        if: contains(github.event.head_commit.message, 'Initial commit')
+        run: gh label create "pages 🔖  " --description "Adding or rearranging pages or menus." --color "f1bcba" 
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: label_blocked
+        continue-on-error: true
+        if: contains(github.event.head_commit.message, 'Initial commit')
+        run: gh label create "blocked 🚧" --description "Task blocked by some other issue." --color "F9F0F4" 
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+      - name: label_bug
+        continue-on-error: true
+        if: contains(github.event.head_commit.message, 'Initial commit')
+        run: gh label create "bug 🐞" --description "Something isn't working" --color "D73A4A" 
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+      - name: label_chore
+        continue-on-error: true
+        if: contains(github.event.head_commit.message, 'Initial commit')
+        run: gh label create "chore 🔨" --description "Maintenance" --color "1F8466"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: label_data_engineering
+        if: contains(github.event.head_commit.message, 'Initial commit')
+        continue-on-error: true
+        run: gh label create "announcements 📣" --description "Adding announcements to students" --color "e3db73"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: label_documentation
+        if: contains(github.event.head_commit.message, 'Initial commit')
+        continue-on-error: true
+        run: gh label create "documentation 📖" --description "Add or update documentation" --color "0075CA"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: label_duplicate
+        if: contains(github.event.head_commit.message, 'Initial commit')
+        continue-on-error: true
+        run: gh label create "teaching content 👨‍🏫" --description "Slides, lecture notes, lecture plan, etc." --color "ccd3cb"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: label_eda
+        if: contains(github.event.head_commit.message, 'Initial commit')
+        continue-on-error: true
+        run: gh label create "exploratory analysis 🔬" --description "We want to explore some data or perform some analysis that will become a feature later" --color "D4C5F9"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: label_feature_request
+        if: contains(github.event.head_commit.message, 'Initial commit')
+        continue-on-error: true
+        run: gh label create "assignments ✍️" --description "Release of assignment instructions, assignment pages, marking criteria, etc." --color "d4c6b2"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: label_new_feature
+        if: contains(github.event.head_commit.message, 'Initial commit')
+        continue-on-error: true
+        run: gh label create "references 📚" --description "Changes to syllabus, academic references, "read more" links, etc." --color "e9f4e2"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+      - name: label_newcomers
+        if: contains(github.event.head_commit.message, 'Initial commit')
+        continue-on-error: true
+        run: gh label create "roadmap 🛣️" --description "Computer lab (or seminar) roadmap, detailing the steps students will take or the items for discussio" --color "eff8f3"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  
+      - name: label_refactoring
+        if: contains(github.event.head_commit.message, 'Initial commit')
+        continue-on-error: true
+        run: gh label create "refactoring ♻️" --description "Some things just have to be re-done or re-organized" --color "C2E0C6"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: label_sprint
+        if: contains(github.event.head_commit.message, 'Initial commit')
+        continue-on-error: true
+        run: gh label create "sprint ➡️" --description "Tasks to be done on the current sprint" --color "D5EEF5"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: label_dataviz
+        if: contains(github.event.head_commit.message, 'Initial commit')
+        continue-on-error: true
+        run: gh label create "dataviz 🖼️" --description "Visualisation-related stuff" --color "212121"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: disable_workflow
+        run: gh workflow disable initial-setup
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
