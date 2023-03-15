@@ -1,5 +1,9 @@
 # Ignore .bib file
 *.bib -linguist-detectable
 
-# Associate
+# Here Markdown is not documentation
+*.md -linguist-documentation
+*.qmd -linguist-documentation
+
+# Associate Quarto with Markdown language
 *.qmd linguist-language=Markdown
