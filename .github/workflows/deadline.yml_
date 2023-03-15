@@ -1,0 +1,33 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Deadline
+# GitHub bot add a comment if an issue is open past its deadline.
+# Deadline is taken from the Milestone end date.
+on:
+
+  schedule:
+  - cron: "0 7 * * 2"
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+
+      - name: Check out repository
+        uses: actions/checkout@v3
+        
+      # Runs a set of commands using the runners shell
+      - name: Issues past deadline
+        run: |
+          paste -d '\t' <(gh issue list -L 1000 -S "is:open -linked:pr" | awk {'print $1'}) <(gh issue list -L 1000 -S "is:open -linked:pr" --json milestone -q .[].milestone.dueOn | xargs -I {} bash -c 'today=$(date +"%s"); milestoneDate=$(date -d {} +"%s");if [ $(expr $today - $milestoneDate) -gt 0 ]; then echo "true"; else echo "false"; fi') | awk -F"\t" '$2 == "true" {print $1}' | xargs -I {} bash -c 'gh issue comment {} --body "This issue ({}) is open past its deadline: $(date -d $(gh issue view {} --json milestone -q .milestone.dueOn) '+%d-%B-%Y'). @$(gh issue view {} --json assignees -q .[][0].login), is there anything blocking your progress? Leave a comment here or contact the project manager."'
+          paste -d '\t' <(gh issue list -L 1000 -S "is:open -linked:pr" | awk {'print $1'}) <(gh issue list -L 1000 -S "is:open -linked:pr" --json milestone -q .[].milestone.dueOn | xargs -I {} bash -c 'today=$(date +"%s"); milestoneDate=$(date -d {} +"%s");if [ $(expr $today - $milestoneDate) -gt 0 ]; then echo "true"; else echo "false"; fi') | awk -F"\t" '$2 == "true" {print $1}' | xargs -I {} bash -c 'gh issue edit {} --add-label "delayed ⏳"'
