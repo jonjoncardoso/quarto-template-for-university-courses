@@ -2,8 +2,8 @@
 *.bib -linguist-detectable
 
 # Here Markdown is not documentation
-*.md -linguist-documentation
-*.qmd -linguist-documentation
+*.md linguist-detectable
+*.qmd linguist-detectable
 
 # Associate Quarto with Markdown language
 *.qmd linguist-language=Markdown
