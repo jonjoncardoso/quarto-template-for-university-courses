@@ -2,4 +2,4 @@
 *.bib -linguist-detectable
 
 # Associate
-*.qmd linguist-language=markdown
+*.qmd linguist-language=Markdown
