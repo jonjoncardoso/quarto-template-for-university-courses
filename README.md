@@ -149,7 +149,7 @@ Now, whenever you open a Jupyter Notebook, you should see the `venv-my-course` k
 
 I recommend you set up a **GitHub Action** for this. Just follow the instructions in the official [Quarto instructions](https://quarto.org/docs/publishing/github-pages.html#publish-action).
 
-💡 This template already comes with a GitHub workflow setup. You can find it on the [.github/workflows/_publish.yml](.github/workflows/_publish.yml) file.
+💡 This template already comes with a GitHub workflow setup. You can find it in the [.github/workflows/publish.yml_](.github/workflows/publish.yml_) file. You just need to rename it to `.github/workflows/publish.yml` (remove the underscore at the end)
 
 </details>
 
